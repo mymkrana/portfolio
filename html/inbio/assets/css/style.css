@@ -13862,7 +13862,7 @@ figcaption {
 -----------------------------*/
 .rn-service {
   text-align: left;
-  padding: 35px 50px 35px 50px;
+  padding: 35px 24px 35px 24px;
   transition: 0.5s all ease-in-out;
   position: relative;
   border-radius: 10px;
@@ -13896,6 +13896,9 @@ figcaption {
 }
 .rn-service .inner .icon {
   margin-bottom: 29px;
+}
+.rn-service .inner .icon img {
+  width: 25%;
 }
 @media only screen and (max-width: 767px) {
   .rn-service .inner .icon {
